@@ -13,7 +13,9 @@ function frameIt() {
 }
 
 function pressIt() {
-  
+  $(document).on('keypress', function() {
+    
+  })
 }
 
 $(document).ready(function(){
