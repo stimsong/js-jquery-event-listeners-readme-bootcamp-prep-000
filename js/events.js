@@ -22,7 +22,7 @@ function pressIt() {
 
 function submitIt() {
   $('form').on('submit', function() {
-    
+    if ($( 'input:first' ).val())
   })
 }
 
