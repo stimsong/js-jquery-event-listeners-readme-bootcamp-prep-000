@@ -16,8 +16,8 @@ function pressIt() {
   $('input').on('keydown', function() {
     if (key.which == 71){
       alert('The G key was pressed');
-    } else {
-      alert('the G key was not pressed');
+//    } else {
+//      alert('the G key was not pressed');
     }
   });
 }
